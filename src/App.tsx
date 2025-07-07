@@ -5,13 +5,17 @@ const App: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen">
 
-      <main className="flex flex-col flex-1 items-center justify-center text-center p-4 space-y-4">
+      <main className="flex flex-col flex-1 items-center justify-center text-center p-4 fade-in-up space-y-4">
 
-        <img
-          src="/qbangladesh-logo.png"
-          alt="QBangladesh logo"
-          className="w-56 md:w-64 lg:w-72 max-w-full pulse hover-scale"
-        />
+        {/* Logo as background image for better social media compatibility */}
+        <div
+          className="w-56 md:w-64 lg:w-72 max-w-full h-56 md:h-64 lg:h-72 bg-center bg-contain bg-no-repeat mx-auto pulse hover-scale"
+          style={{ backgroundImage: 'url(/qbangladesh-logo.png)' }}
+          role="img"
+          aria-label="QBangladesh logo"
+        >
+          <span className="sr-only">QBangladesh logo</span>
+        </div>
 
         <h1 className="text-6xl md:text-8xl font-black  ">
           COMING

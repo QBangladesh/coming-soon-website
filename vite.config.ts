@@ -7,6 +7,6 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react(), tailwindcss(),],
   server: {
-    allowedHosts: ['rod-cia-characteristics-passenger.trycloudflare.com'],
+    allowedHosts: ['qbangladesh.com'],
   }
 })
