@@ -8,9 +8,9 @@ const App: React.FC = () => {
       <main className="flex flex-col flex-1 items-center justify-center text-center p-4 fade-in-up space-y-4">
 
         <img
-          src="/qbangladesh-logo.png"
+          src="/qbangladesh-logo.webp"
           alt="QBangladesh logo"
-          className="w-56 md:w-64 lg:w-72 max-w-full pulse hover-scale"
+          className="w-56 md:w-64 lg:w-72 max-w-full pulse hover-scale -ml-10"
         />
 
         <h1 className="text-6xl md:text-8xl font-black  ">
